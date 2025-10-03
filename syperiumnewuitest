@@ -675,7 +675,7 @@ do -- menu
             })
 
             Sat.Name = "Sat"
-            Sat.Image = "http://www.roblox.com/asset/?id=14684562507"
+            Sat.Image = "http://www.roblox.com/asset/?id=118277863702952"
             Sat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Sat.BackgroundTransparency = 1
             Sat.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -689,7 +689,7 @@ do -- menu
             });
 
             Val.Name = "Val"
-            Val.Image = "http://www.roblox.com/asset/?id=14684563800"
+            Val.Image = "http://www.roblox.com/asset/?id=118277863702952"
             Val.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Val.BackgroundTransparency = 1
             Val.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -714,7 +714,7 @@ do -- menu
             Color.Parent = ColorInline
 
             Alpha.Name = "Alpha"
-            Alpha.Image = "http://www.roblox.com/asset/?id=15486053510"
+            Alpha.Image = "http://www.roblox.com/asset/?id=118277863702952"
             Alpha.AutoButtonColor = false
             Alpha.BackgroundTransparency = 1
             Alpha.ImageTransparency = 0.03
@@ -730,7 +730,7 @@ do -- menu
 
             Alpha_Bg.Name = "alpha_bg"
             Alpha_Bg.ZIndex = -1
-            Alpha_Bg.Image = "http://www.roblox.com/asset/?id=4879903999"
+            Alpha_Bg.Image = "http://www.roblox.com/asset/?id=118277863702952"
             Alpha_Bg.BackgroundTransparency = 1
             Alpha_Bg.ScaleType = Enum.ScaleType.Crop
             Alpha_Bg.ImageColor3 = Color3.fromRGB(255, 255, 255)

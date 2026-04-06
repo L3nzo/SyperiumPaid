@@ -2,24 +2,24 @@ local framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/L3n
 --
 do -- checks
     do -- folders
-        if (not isfolder("ENHANCEMENTS")) then
-            makefolder("ENHANCEMENTS");
+        if (not isfolder("SYPERIUM")) then
+            makefolder("SYPERIUM");
         end;
         --
         if (not isfolder("CONFIGS")) then
             makefolder("CONFIGS");
         end;
         --
-        if (not isfolder("ENHANCEMENTS/MENU")) then
-            makefolder("ENHANCEMENTS/MENU");
+        if (not isfolder("SYPERIUM/MENU")) then
+            makefolder("SYPERIUM/MENU");
         end;
         --
-        if (not isfolder("ENHANCEMENTS/MENU/FONTS")) then
-            makefolder("ENHANCEMENTS/MENU/FONTS");
+        if (not isfolder("SYPERIUM/MENU/FONTS")) then
+            makefolder("SYPERIUM/MENU/FONTS");
         end;
         --
-        if (not isfolder("ENHANCEMENTS/LOADER/IMAGES")) then
-            makefolder("ENHANCEMENTS/LOADER/IMAGES");
+        if (not isfolder("SYPERIUM/LOADER/IMAGES")) then
+            makefolder("SYPERIUM/LOADER/IMAGES");
         end;
     end;
 end;
@@ -50,25 +50,25 @@ signals = framework.modules.signals
 -- fonts
 local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/mainstreamed/clones/refs/heads/main/synapse/fontCreator.lua"))();
 local fonts = {
-    smallest_pixel = create_font:register("ENHANCEMENTS/MENU/FONTS", {
+    smallest_pixel = create_font:register("SYPERIUM/MENU/FONTS", {
         name = "smallest pixel",
         weight = "regular",
         style = "normal",
         link = "https://github.com/mainstreamed/clones/raw/refs/heads/main/synapse/smallest_pixel-7.ttf",
     }),
-    templeos = create_font:register("ENHANCEMENTS/MENU/FONTS", {
+    templeos = create_font:register("SYPERIUM/MENU/FONTS", {
         name = "templeos",
         weight = "regular",
         style = "normal",
         link = "https://github.com/mainstreamed/clones/raw/refs/heads/main/synapse/Templeos.ttf",
     }),
-    proggytiny = create_font:register("ENHANCEMENTS/MENU/FONTS", {
+    proggytiny = create_font:register("SYPERIUM/MENU/FONTS", {
         name = "proggytiny",
         weight = "regular",
         style = "normal",
         link = "https://github.com/mainstreamed/clones/raw/refs/heads/main/synapse/ProggyTiny.ttf",
     }),
-    medodica = create_font:register("ENHANCEMENTS/MENU/FONTS", {
+    medodica = create_font:register("SYPERIUM/MENU/FONTS", {
         name = "medodica",
         weight = "regular",
         style = "normal",

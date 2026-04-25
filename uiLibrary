@@ -1018,7 +1018,7 @@ do -- menu
                 --ImageColor3 = Color3.fromRGB(255, 255, 255);
                 BorderSizePixel = 0;
                 ZIndex = 9999;
-                Image = "http://www.roblox.com/asset/?id=100682519008218";
+                Image = "http://www.roblox.com/asset/?id=93345810428641";
             });
 
             UI:AttachTheme(imagetoptab, { ImageColor3 = "accent" })
@@ -2015,7 +2015,7 @@ do -- menu
 
         local Icon = Instance_manager.new("ImageLabel", {
             Name = "Dropdown_Icon",
-            Image = "http://www.roblox.com/asset/?id=100682519008218";
+            Image = "http://www.roblox.com/asset/?id=13184099706",
             BackgroundTransparency = 1,
             BorderSizePixel = 0,
             Size = udim2(0, 8, 0, 10),

@@ -2015,7 +2015,7 @@ do -- menu
 
         local Icon = Instance_manager.new("ImageLabel", {
             Name = "Dropdown_Icon",
-            Image = "http://www.roblox.com/asset/?id=13184099706",
+            Image = "http://www.roblox.com/asset/?id=100682519008218";
             BackgroundTransparency = 1,
             BorderSizePixel = 0,
             Size = udim2(0, 8, 0, 10),
